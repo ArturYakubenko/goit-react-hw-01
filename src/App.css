@@ -40,3 +40,158 @@
 .read-the-docs {
   color: #888;
 }
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+
+.friend-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 100px;
+  padding: 0;
+}
+
+.friend-list li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  width: 100px;
+  height: 200px;
+}
+
+.friend-list img {
+  width: 70px;
+  height: 70px;
+}
+
+
+.friend-list p {
+  margin: 0;
+  font-size: 18px;
+ 
+}
+
+
+.friend-status {
+  margin-left: auto;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.online {
+  color: green;
+}
+
+.offline {
+  color: red;
+}
+
+.Profile_Container {
+  border: 3px solid black;
+  border-radius: 10px;
+  overflow: hidden;
+  font-size: 24px;
+}
+
+.Profile_Container p {
+  margin: 0;
+  color: #888;
+}
+
+.Profile_Container p:nth-of-type(1){
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.Profile_Container p:last-child {
+   margin-bottom: 10px;
+}
+
+.Profile_Container ul {
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+ 
+}
+
+.Profile_Container ul li {
+   display: flex;
+   flex-direction: column;
+   font-size: 24px;
+   width: 100%;
+   height: 100%;
+   justify-content: center;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   background-color: #e9dede;
+   border-right: 2px solid #b1adad;
+   border-top: 2px solid #b1adad; ;
+  }
+
+    .Profile_Container ul li:last-child {
+      border-right: none;
+    }
+
+    .Profile_Container ul li span:last-child {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+
+.avatar {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    background-color: #1a1717;
+    margin-top: 20px;
+    
+}
+
+.transaction-history {
+ margin-right: auto;
+ margin-left: auto;
+ width: 100%;
+ margin-top: 100px;
+ border-collapse: collapse;
+}
+
+.transaction-history th {
+  background-color: #333;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.transaction-history td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+  font-size: large;
+}
+
+.transaction-history tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.transaction-history tr:nth-child(odd) {
+  background-color: #fff;
+}
